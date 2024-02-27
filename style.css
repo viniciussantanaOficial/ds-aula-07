@@ -1,0 +1,110 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    font-family: 'inter', 'sans-serif';
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    border: 1px solid rgb(24, 0, 19);
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.img {
+    background-image: url("./assets/download.png");
+    width: 228px;
+    height: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 40em;
+    margin-top: 100px;
+    border-radius: 40px;
+    background-color: darkcyan;
+}
+
+#input-login, #input-senha{
+    color: black;
+    width: 84%;
+    font-size: 13px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#input-senha{
+
+
+    color: black;
+    width: 84%;
+    height: 85px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#email{
+    height: 25px;
+}
+
+#senha{
+    height: 25px;
+}
+
+#botoes {
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    column-gap: 20px;
+    
+}
+
+#confirmar, #cadastrar {
+    
+    background-color: cadetblue;
+    height: 84px;
+    width: 50%;
+    border-color: aliceblue;
+    border-radius: 12px;
+    
+    
+}
+
+#logins{
+
+    flex-direction: column;
+    height: 25px
+    ;
+}
+
+input{
+
+    width: 450px;
+    height: 30px;
+}
