@@ -1,0 +1,74 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+   
+}
+
+#senai {
+
+     display: flex;
+    font-family: 'inter', 'sans-serif';
+    justify-content: center;
+    height: 50px;
+    border: 1px solid rgb(24, 0, 19);
+    background-color: aliceblue;
+    width: 272px;
+    height: 50px;
+}
+
+
+h2{
+
+    position: relative;
+    top: -50px;
+    left: 145px;
+    display: flex;
+    font-family: 'inter', 'sans-serif';
+    justify-content: center;
+    border: 1px solid rgb(24, 0, 19);
+    background-color: white;
+    width: 300px;
+    height: 30px;
+
+   
+}
+
+#buscar{
+
+    position: relative;
+    top: -52px;
+    left: 275px;
+    width: 250px;
+    height: 46px;
+
+}
+
+.fa-magnifying-glass{
+
+   position: relative;
+   top: -155px;
+   left: 510px;
+}
+
+.fa-bars{
+
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+
+
+
+
+
+
+
+
+

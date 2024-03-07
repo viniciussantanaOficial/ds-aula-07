@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    
     <title>Document</title>
 </head>
 
@@ -27,21 +28,22 @@
                     <h2>Email</h2>
                 </div>
                 <div id="email-input">
-                    <input type="text" placeholder="email...">
+                    <input id="email" class="email" type="text" placeholder="email...">
                 </div>
             </div>
             <div id="input-senha">
                 <div id="senha">
                     <h2>Senha</h2>
                 </div>
-                <input class="input" type="text" placeholder="senha...">
+                <input id="senha" class="senha-input" type="text" placeholder="senha...">
             </div>
 
             <div id="logins">
+               
 
             </div>
             <div id="botoes">
-                <button id="confirmar">
+                <button onclick="verificar()" id="confirmar">
                     login
                 </button>
                 <button id="cadastrar">
@@ -59,6 +61,8 @@
 
 
     </footer>
+
+    <script src="./javascript/java.js"></script>
 
 </body>
 
