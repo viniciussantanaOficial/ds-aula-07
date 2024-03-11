@@ -26,15 +26,15 @@ header{
 h2{
 
     position: relative;
-    top: -50px;
-    left: 145px;
+    top: -43px;
+    left: 149px;
     display: flex;
     font-family: 'inter', 'sans-serif';
     justify-content: center;
     border: 1px solid rgb(24, 0, 19);
     background-color: white;
-    width: 300px;
-    height: 30px;
+    width: 433px;
+    height: 40px;
 
    
 }
@@ -42,29 +42,41 @@ h2{
 #buscar{
 
     position: relative;
-    top: -52px;
+    top: -50px;
     left: 275px;
-    width: 250px;
-    height: 46px;
+    width: 374px;
+    height: 50px;
 
 }
 
 .fa-magnifying-glass{
 
    position: relative;
-   top: -155px;
-   left: 510px;
+   top: -135px;
+   left: 623px;
 }
 
 .fa-bars{
 
     position: relative;
-    top: 2px;
-    left: 2px;
+    top: -157px;
+    left: 663px;
 }
 
+#meio{
 
+    width: 1000px;
+    background-color: black;
+}
 
+.fa-user{
+
+    position: relative;
+    top: -106px;
+    left: 507px;
+    color: white;
+
+}   
 
 
 
