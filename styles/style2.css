@@ -1,3 +1,4 @@
+
 body {
     display: block;
     margin: 0;
@@ -7,7 +8,8 @@ body {
 }
 
 header{
-   
+
+    
 }
 
 #senai {
@@ -18,16 +20,17 @@ header{
     height: 50px;
     border: 1px solid rgb(24, 0, 19);
     background-color: aliceblue;
-    width: 272px;
+    width: 200px;
     height: 50px;
+    object-fit: cover;
 }
 
 
 h2{
 
     position: relative;
-    top: -43px;
-    left: 149px;
+    top: -32px;
+    left: 99px;
     display: flex;
     font-family: 'inter', 'sans-serif';
     justify-content: center;
@@ -43,8 +46,8 @@ h2{
 
     position: relative;
     top: -50px;
-    left: 275px;
-    width: 374px;
+    left: 200px;
+    width: 353px;
     height: 50px;
 
 }
@@ -52,15 +55,16 @@ h2{
 .fa-magnifying-glass{
 
    position: relative;
-   top: -135px;
-   left: 623px;
+   top: -131px;
+    left: 528px;
 }
 
 .fa-bars{
 
     position: relative;
-    top: -157px;
-    left: 663px;
+    top: -132px;
+    left: 544px;
+
 }
 
 #meio{
@@ -72,11 +76,42 @@ h2{
 .fa-user{
 
     position: relative;
-    top: -106px;
-    left: 507px;
-    color: white;
+    top: -71px;
+    left: 520px;
+   
 
 }   
+
+#separar{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100px;
+    height: 100px;
+
+}
+
+header{
+
+    width: 593px;
+    height: 110px;
+    background-color: darkgray;
+}
+
+#harry{
+
+    margin-top: 50px;
+    height: 300px;
+    width: 190px;
+}
+
+#teste{
+  width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 
